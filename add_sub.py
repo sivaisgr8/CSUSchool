@@ -9,10 +9,10 @@ def mathfunction ():
 
     while True:
         operation = input('Do you want to add (a ) or subtract(s) or both(b): ')
-        if operation == 'y':
+        if operation == 'a':
            print(f"Result: {firstNumber + secondNumber}")
            break
-        elif operation == 'n':
+        elif operation == 's':
             print(f"Result: {firstNumber - secondNumber}")
             break
         elif operation == 'b':
