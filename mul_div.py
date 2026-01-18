@@ -20,7 +20,7 @@ def mathfunction ():
             print(f"Result Division: {firstNumber / secondNumber}")
             break
         else:
-            print('Invalid Selection. Please enter y or n only')
+            print('Invalid Selection. Please select m or d or b only')
 
 
 mathfunction ()
