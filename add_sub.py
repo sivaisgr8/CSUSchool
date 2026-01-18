@@ -20,7 +20,7 @@ def mathfunction ():
             print(f"Result Add: {firstNumber - secondNumber}")
             break
         else:
-            print('Invalid Selection. Please enter y or n only')
+            print('Invalid Selection. Please select a or s or b only')
 
 
 mathfunction ()
