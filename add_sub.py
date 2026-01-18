@@ -17,7 +17,7 @@ def mathfunction ():
             break
         elif operation == 'b':
             print(f"Result Add: {firstNumber + secondNumber}")
-            print(f"Result Add: {firstNumber - secondNumber}")
+            print(f"Result Subtraction: {firstNumber - secondNumber}")
             break
         else:
             print('Invalid Selection. Please select a or s or b only')
