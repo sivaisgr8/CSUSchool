@@ -9,10 +9,10 @@ def mathfunction ():
 
     while True:
         operation = input('Do you want to multiply (m ) or divide(d) or both(b): ')
-        if operation == 'y':
+        if operation == 'm':
            print(f"Result: {firstNumber * secondNumber}")
            break
-        elif operation == 'n':
+        elif operation == 'd':
             print(f"Result: {firstNumber / secondNumber}")
             break
         elif operation == 'b':
